@@ -56,8 +56,8 @@ def calculate_metrics(folder1, folder2):
 
 
 if __name__ == '__main__':
-    folder1 = '/home/li/image_inpaint/data/place/test2/'
-    folder2 = '/home/li/image_inpaint/对比方法/TSBGNet-master/TSBGNet/results/place2/0.5-0.6'
+    folder1 = '/home/li/image_inpaint/data/place/'  # truth image
+    folder2 = '/home/li/image_inpaint/TSBGNet-master/TSBGNet/'  # inpainted image
 
 
     res = calculate_metrics(folder1, folder2)
