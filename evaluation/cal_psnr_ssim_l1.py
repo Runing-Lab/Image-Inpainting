@@ -122,8 +122,8 @@ def calculate_metrics(folder1, folder2):
 
 
 if __name__ == '__main__':
-    folder1 = '/home/li/大比例破损对比/gt/'
-    folder2 = '//home/li/大比例破损对比/our/'
+    folder1 = '/home/li/gt/'
+    folder2 = '//home/li/our/'
 
 
     psnr_mean, ssim_mean, l1_mean = calculate_metrics(folder1, folder2)
