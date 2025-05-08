@@ -184,8 +184,8 @@ def calculate_metrics(folder1, folder2):
 
 
 if __name__ == '__main__':
-    folder1 = r'/home/li/image_inpaint/data/place/test2'
-    folder2 = '/home/li/image_inpaint/对比方法/spa-former-main/result/place2/0.5-0.6'
+    folder1 = ''
+    folder2 = ''
 
     fid, pids, uids = calculate_metrics(folder1, folder2)
     print('fid: %.4f, pids: %.4f, uids: %.4f' % (fid, pids, uids))
